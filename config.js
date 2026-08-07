@@ -1,7 +1,7 @@
 window.SITE_CONFIG = {
   studioName: "ANBAO Studio",
   tagline: "Relaxing puzzle games made with care.",
-  supportEmail: "YOUR_EMAIL@gmail.com",
+  supportEmail: "anbaostudiogame@gmail.com",
   developerWebsite: "https://YOUR_GITHUB_USERNAME.github.io",
   games: [
     {

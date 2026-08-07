@@ -1,7 +1,7 @@
 HƯỚNG DẪN ĐĂNG WEBSITE ANBAO STUDIO LÊN GITHUB PAGES
 
 1. MỞ FILE config.js VÀ SỬA 3 CHỖ:
-   - supportEmail: thay YOUR_EMAIL@gmail.com bằng email hỗ trợ thật.
+   - supportEmail: thay anbaostudiogame@gmail.com bằng email hỗ trợ thật.
    - developerWebsite: thay YOUR_GITHUB_USERNAME bằng username GitHub.
    - playStoreUrl: thay dấu # bằng link Google Play khi game có link công khai.
 
