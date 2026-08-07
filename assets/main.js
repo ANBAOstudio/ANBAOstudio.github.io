@@ -2,8 +2,8 @@
   const cfg = window.SITE_CONFIG || {};
   document.querySelectorAll("[data-studio]").forEach(el => el.textContent = cfg.studioName || "ANBAO Studio");
   document.querySelectorAll("[data-email]").forEach(el => {
-    el.textContent = cfg.supportEmail || "YOUR_EMAIL@gmail.com";
-    if (el.tagName === "A") el.href = "mailto:" + (cfg.supportEmail || "YOUR_EMAIL@gmail.com");
+    el.textContent = cfg.supportEmail || "anbaostudiogame@gmail.com";
+    if (el.tagName === "A") el.href = "mailto:" + (cfg.supportEmail || "anbaostudiogame@gmail.com");
   });
   const year = new Date().getFullYear();
   document.querySelectorAll("[data-year]").forEach(el => el.textContent = year);

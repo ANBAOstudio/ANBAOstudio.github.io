@@ -155,3 +155,35 @@ body:not(.home-page) header nav a:hover{color:var(--gold)}
   body:not(.home-page) > header .nav{align-items:flex-start;padding:14px 0;min-height:auto}
   body:not(.home-page) header nav{justify-content:flex-end;gap:12px}
 }
+
+/* Contact page */
+.contact-page{background:
+  radial-gradient(circle at 20% 10%,rgba(255,180,0,.12),transparent 28%),
+  radial-gradient(circle at 85% 22%,rgba(28,73,133,.18),transparent 30%),
+  var(--bg);
+}
+.contact-prose{max-width:980px}
+.contact-prose>h1{margin:8px 0 18px}
+.contact-prose>.lead{max-width:720px;margin:0 0 42px}
+.contact-grid{display:grid;grid-template-columns:1.45fr .8fr;gap:24px;align-items:stretch}
+.contact-main-card{display:grid;grid-template-columns:auto 1fr;gap:22px;padding:38px}
+.contact-icon{width:66px;height:66px;border-radius:20px;display:grid;place-items:center;font-size:30px;color:#07111f;background:linear-gradient(145deg,var(--gold2),var(--gold));box-shadow:0 14px 34px rgba(255,180,0,.18)}
+.contact-label{display:block;color:var(--gold);text-transform:uppercase;letter-spacing:.12em;font-size:.75rem;font-weight:900;margin-bottom:6px}
+.contact-main-card h2{margin:0 0 12px;font-size:clamp(1.35rem,3vw,2rem);line-height:1.2;overflow-wrap:anywhere}
+.contact-main-card h2 a{text-decoration:none}
+.contact-main-card h2 a:hover{color:var(--gold)}
+.contact-button{margin-top:10px;min-width:150px}
+.contact-info-card{padding:18px 26px;display:flex;flex-direction:column;justify-content:center}
+.contact-info-item{padding:20px 0;border-bottom:1px solid rgba(255,255,255,.09)}
+.contact-info-item:last-child{border-bottom:0}
+.contact-info-item span{display:block;color:var(--muted);font-size:.84rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+.contact-info-item strong{display:block;font-size:1.03rem}
+.support-note{margin-top:26px;padding:28px 32px;border-radius:22px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08)}
+.support-note h2{margin:0 0 8px;font-size:1.3rem}
+.support-note p{margin:0}
+@media(max-width:760px){
+  .contact-grid{grid-template-columns:1fr}
+  .contact-main-card{grid-template-columns:1fr;padding:28px}
+  .contact-icon{width:58px;height:58px}
+  .contact-info-card{padding:10px 24px}
+}
