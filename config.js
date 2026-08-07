@@ -1,8 +1,8 @@
 window.SITE_CONFIG = {
   studioName: "ANBAO Studio",
   tagline: "Relaxing puzzle games made with care.",
-  supportEmail: "anbaostudiogame@gmail.com",
-  developerWebsite: "https://ANBAOstudio.github.io",
+  supportEmail: "YOUR_EMAIL@gmail.com",
+  developerWebsite: "https://YOUR_GITHUB_USERNAME.github.io",
   games: [
     {
       title: "Screw Art: Color Puzzle",
